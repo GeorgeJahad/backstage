@@ -1,0 +1,13 @@
+appConfig:
+  app:
+    baseUrl: https://localhost:8008
+    title: Backstage
+  backend:
+    baseUrl: https://localhost:8008
+    cors:
+      origin: https://localhost:8008
+  lighthouse:
+    baseUrl: https://localhost:8008/lighthouse-api
+  techdocs:
+    storageUrl: https://localhost:8008/api/techdocs/static/docs
+    requestUrl: https://localhost:8008/api/techdocs

@@ -74,7 +74,7 @@ export class Scheduler {
    * Starts the scheduling process for each task
    */
   start() {
-    this.logger.info('Starting all scheduled search tasks.');
+    this.logger.info('gbj Starting all scheduled search tasks.' + process.version);
     this.isRunning = true;
     Object.keys(this.schedule).forEach(id => {
       const abortController = new AbortController();
